@@ -1,0 +1,159 @@
+:root {
+  --green: #0f766e;
+  --deep: #24333a;
+  --mint: #ddf3ef;
+  --cream: #f3faf8;
+  --ink: #24333a;
+  --muted: #64748b;
+  --line: #e2e8f0;
+  --sans: "Inter", Arial, sans-serif;
+}
+
+body { color: var(--ink); font: 16px/1.65 var(--sans); }
+.site-header { border-color: var(--line); }
+.brand { font-size: 16px; }
+.desktop-nav a, .nav-phone { font-size: 15px; color: var(--muted); }
+.button { min-height: 52px; padding-inline: 22px; font-size: 15px; border-radius: 6px; }
+.button-dark { background: var(--green); }
+.button-dark:hover { background: #0b625c; }
+.button-outline { border: 1px solid var(--green); color: var(--green); background: white; }
+.button-outline:hover { background: var(--cream); }
+.eyebrow { font: 600 12px/1.4 var(--sans); letter-spacing: 1.15px; }
+.hero h1 { font-size: clamp(48px, 5vw, 60px); line-height: 1.12; letter-spacing: -1.5px; }
+.hero-lede { max-width: 490px; color: var(--muted); font-size: 18px; line-height: 1.75; }
+.hero-note strong { font-size: 15px; }
+.hero-note small, .photo-caption, .image-label { font-size: 13px; }
+.hero-note small { color: var(--muted); }
+.trust-strip { background: var(--cream); color: #52646b; font-size: 12px; }
+.section { max-width: 1200px; padding-block: 100px; }
+.about-copy h2, .clinic-copy h2, .faq-heading h2 { font-size: clamp(34px, 3.4vw, 42px); }
+.body-large { font-size: 18px; line-height: 1.75; color: var(--muted); }
+.about-copy > p:not(.body-large) { color: var(--muted); font-size: 16px; line-height: 1.8; }
+.credentials strong { font-size: 15px; }
+.credentials span { color: var(--muted); font-size: 14px; }
+.years-card { background: var(--green); }
+.years-card small { font-size: 13px; }
+.services-section { background: var(--cream); padding-block: 88px; }
+.section-heading h2 { font-size: clamp(34px, 3.4vw, 42px); line-height: 1.18; }
+.section-heading > p { max-width: 390px; color: var(--muted); font-size: 16px; line-height: 1.75; }
+.service-grid { gap: 18px; }
+.service-card { min-height: 250px; padding: 26px 24px 30px; border-color: var(--line); box-shadow: none; }
+.service-card h3 { font-size: 22px; margin-top: 22px; }
+.service-card p { color: var(--muted); font-size: 15px; line-height: 1.7; }
+.service-card:hover { box-shadow: 0 9px 24px #24333a0a; }
+.service-icon, .note-icon, .credential-icon, .detail-icon { background: var(--mint); color: var(--green); }
+.services-foot { color: var(--muted); font-size: 14px; }
+.text-link { font-size: 15px; }
+.why-section { background: var(--cream); color: var(--ink); padding-block: 78px; }
+.why-section h2 { color: var(--deep); font-size: clamp(34px, 3.4vw, 42px); }
+.why-section h2 em { color: var(--green); }
+.eyebrow-light { color: var(--green); }
+.why-intro > p, .why-items p { color: var(--muted); font-size: 16px; line-height: 1.7; }
+.why-items article { border-color: var(--line); }
+.why-items article > span { color: var(--green); font-size: 16px; }
+.why-items h3 { font-size: 22px; }
+.why-decoration { color: #0f766e0a; }
+.clinic-section { max-width: 1200px; padding-block: 100px; }
+.clinic-copy > .body-large { font-size: 17px; }
+.clinic-details { gap: 24px; }
+.detail-row strong { font-size: 15px; }
+.detail-row > div > span, .detail-row a { color: var(--muted); font-size: 15px; line-height: 1.7; }
+.detail-row a { color: var(--green); }
+.hours-row { max-width: 330px; }
+.hours-row span:last-child { color: var(--ink); }
+.map-label strong { font-size: 14px; }
+.map-label small { color: var(--muted); font-size: 13px; }
+.faq-section { background: var(--cream); padding-block: 82px; }
+.faq-heading h2 { font-size: clamp(34px, 3.4vw, 42px); }
+.faq-heading > p { max-width: 300px; color: var(--muted); font-size: 16px; line-height: 1.7; }
+.faq-item summary { font-size: 18px; }
+.faq-item p { color: var(--muted); font-size: 16px; line-height: 1.75; }
+.booking-banner { min-height: 360px; background: var(--mint); color: var(--ink); }
+.booking-content h2 { color: var(--deep); font-size: clamp(34px, 3.4vw, 42px); }
+.booking-content h2 em { color: var(--green); }
+.booking-content > p { color: var(--muted); font-size: 17px; line-height: 1.75; }
+.booking-content > small { color: #52646b; font-size: 13px; }
+.booking-orbit { border-color: #0f766e12; }
+.booking-art { color: var(--green); opacity: .08; }
+.calendar-art { border-color: currentColor; }
+.calendar-head { border-color: currentColor; }
+.calendar-head span { background: currentColor; }
+.calendar-head i { border-color: currentColor; }
+.calendar-heart { color: currentColor; }
+.footer { background: var(--cream); }
+.footer-main { max-width: 1200px; }
+.footer-brand > p, .footer-col p { color: var(--muted); font-size: 14px; line-height: 1.7; }
+.footer-col { color: var(--muted); font-size: 14px; }
+.footer-col > strong { color: var(--deep); font-size: 15px; }
+.sample-label { font-size: 11px; }
+.footer-bottom { color: var(--muted); font-size: 12px; }
+.appointment-dialog { border: 1px solid var(--line); }
+.dialog-header { background: var(--cream); }
+.dialog-icon { background: var(--mint); color: var(--green); }
+.dialog-header > p { color: var(--muted); font-size: 14px; }
+.appointment-form label { color: var(--ink); font-size: 14px; }
+.appointment-form label > small { font-size: 11px; }
+.appointment-form input, .appointment-form select, .appointment-form textarea { border-color: var(--line); font-size: 15px; }
+.form-disclaimer { color: var(--muted); font-size: 13px; }
+.form-error { font-size: 14px; }
+.dialog-clinic { color: var(--muted); font-size: 12px; }
+.privacy-wrap h2 { font-size: 22px; }
+.privacy-wrap p { color: var(--muted); font-size: 16px; }
+.privacy-updated { font-size: 13px !important; }
+
+@media (max-width: 1000px) {
+  .hero h1 { font-size: clamp(46px, 6vw, 56px); }
+  .desktop-nav { gap: 18px; }
+  .desktop-nav a { font-size: 14px; }
+  .about-section { gap: 56px; }
+  .service-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 760px) {
+  body { font-size: 16px; }
+  .hero { padding: 45px 21px 42px; }
+  .hero h1 { font-size: clamp(36px, 9vw, 42px); line-height: 1.14; }
+  .hero-lede { font-size: 16px; }
+  .eyebrow { font-size: 11px; }
+  .hero-buttons { gap: 12px; }
+  .hero-buttons .button { min-height: 50px; padding-inline: 15px; font-size: 14px; }
+  .hero-note strong { font-size: 14px; }
+  .hero-note small { font-size: 12px; }
+  .trust-strip { gap: 10px; font-size: 10px; text-align: center; }
+  .section { padding: 72px 22px; }
+  .about-section { gap: 44px; }
+  .about-copy h2, .clinic-copy h2, .faq-heading h2,
+  .section-heading h2, .why-section h2, .booking-content h2 { font-size: 32px; }
+  .body-large, .about-copy > p:not(.body-large) { font-size: 16px; }
+  .credentials span { font-size: 13px; }
+  .services-section { padding: 68px 21px; }
+  .section-heading > p { font-size: 16px; }
+  .service-card { min-height: 238px; padding: 20px 17px 25px; }
+  .service-card h3 { font-size: 19px; }
+  .service-card p { font-size: 14px; }
+  .services-foot { font-size: 12px; }
+  .why-section { padding: 62px 23px; }
+  .why-items h3 { font-size: 19px; }
+  .why-intro > p, .why-items p { font-size: 15px; }
+  .clinic-section { padding: 72px 22px; }
+  .clinic-copy > .body-large { font-size: 16px; }
+  .detail-row strong, .detail-row > div > span, .detail-row a { font-size: 14px; }
+  .map-frame { height: 340px; }
+  .faq-section { padding: 65px 22px; }
+  .faq-heading > p { font-size: 15px; }
+  .faq-item summary { font-size: 16px; }
+  .faq-item p { font-size: 15px; }
+  .booking-banner { padding: 60px 22px; min-height: 330px; }
+  .booking-content > p { font-size: 16px; }
+  .booking-content > small { font-size: 12px; }
+  .booking-art { display: none; }
+  .footer-main { gap: 28px 20px; }
+  .footer-col, .footer-brand > p, .footer-col p { font-size: 13px; }
+  .privacy-wrap { padding: 32px 23px; }
+  .appointment-form { padding: 18px 21px 22px; }
+  .dialog-header { padding: 23px 21px 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+}
